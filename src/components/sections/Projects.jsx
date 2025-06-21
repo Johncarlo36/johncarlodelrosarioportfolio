@@ -2,10 +2,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Projects = () => {
   return (
-    <section
-      id="projects"
-      className="flex justify-center py-20"
-    >
+    <section id="projects" className="flex justify-center py-20">
       <RevealOnScroll>
         <div className="max-w-5xl w-full px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
@@ -46,7 +43,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://cl-tech-front-john-carlo-568ewhtil.vercel.app/"
+                  href="https://cltechjohncarlo.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 transition-colors"
